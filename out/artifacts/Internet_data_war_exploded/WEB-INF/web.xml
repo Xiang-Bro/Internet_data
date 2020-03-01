@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>about_user</servlet-name>
+        <servlet-class>About_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about_user</servlet-name>
+        <url-pattern>/about_user</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>about_goods</servlet-name>
+        <servlet-class>About_goods</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about_goods</servlet-name>
+        <url-pattern>/about_goods</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>about_car</servlet-name>
+        <servlet-class>About_car</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about_car</servlet-name>
+        <url-pattern>/about_car</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>about_buy</servlet-name>
+        <servlet-class>About_buy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about_buy</servlet-name>
+        <url-pattern>/about_buy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>about_order</servlet-name>
+        <servlet-class>About_order</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>about_order</servlet-name>
+        <url-pattern>/about_order</url-pattern>
+    </servlet-mapping>
+</web-app>
